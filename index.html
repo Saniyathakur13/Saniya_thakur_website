@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Saniya Thakur | Full Stack Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<canvas id="glow-canvas"></canvas>
+<div class="bg-glow"></div>
+
+<div class="container">
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">✨ Saniya Thakur</div>
+    <div class="nav-links">
+      <a href="#case-studies">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/Saniyathakur13" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="www.linkedin.com/in/saniyathakur" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <button id="darkModeToggle" class="theme-toggle"><i class="fas fa-moon"></i> Dark</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Saniya Thakur<br>Full Stack Developer</h1>
+      <div id="typed-text"></div>
+      <p>Results-oriented Full Stack Developer with expertise in building scalable web applications using Java, Spring Boot, and Node.js. Passionate about clean code and seamless user experiences.</p>
+      <div class="btn-group">
+        <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Hire Me</a>
+        <button id="downloadResumeBtn" class="btn btn-outline"><i class="fas fa-download"></i> Resume</button>
+      </div>
+      <div style="margin-top: 1rem;">
+        <i class="fas fa-map-marker-alt"></i> Solapur, India | 
+        <i class="fas fa-envelope"></i> thakursaniya102@gmail.com
+      </div>
+    </div>
+    <div>
+      <i class="fas fa-laptop-code" style="font-size: 4rem; color: #581669;"></i>
+      <p style="margin-top: 10px;">🎓 MCA (2024-2026)<br>Shivaji University, Kolhapur</p>
+      <a href="https://www.skills.google/public_profiles/4e94c45a-9e5d-41a6-a9fc-fdec39e1a188" target="_blank" style="display: inline-block; margin-top: 10px; color: #4d0647;">
+        <i class="fab fa-google"></i> Google Skill Badges →
+      </a>
+      <a href="https://learn.microsoft.com/en-us/users/saniyathakur-8373/achievements/bujn8ghd?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" style="display: inline-block; margin-top: 10px; color: #400c51;">
+        machine learning assessment passed By Microsoft →
+      </a>
+      <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_5d616098-10b4-11f1-bdec-005056b48b54" target="_blank" style="display: inline-block; margin-top: 10px; color: #4b0c52;">
+        Future Skills Prime →
+      </a>
+      <p style="margin-top: 30px;">😍Live Projects Links</p>
+      <a href="https://ai-recommendation-engine-tawny.vercel.app/" target="_blank"style="display: block; margin-top: 10px; color: #4d0647;">
+        Ai Recommendation Engine →
+      </a>
+      <a href="https://crime-analysis-system.streamlit.app/" target="_blank" style="display: block; margin-top: 10px; color: #4d0647;">
+        Crime Analysis System →
+      </a>
+      <a href="https://saniyathakur13.github.io/medicare/" target="_blank" style="display: block; margin-top: 10px; color: #4d0647;">
+        Medicare →
+      </a>
+      <a href="https://weatherforcast-b.streamlit.app/" target="_blank" style="display: block; margin-top: 10px; color: #4d0647;">
+        Weather Forecast →
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div id="case-studies">
+    <h2 class="section-title">📌 Technical Case Studies</h2>
+    <div class="case-grid">
+      <div class="case-card">
+        <div class="case-icon"><i class="fas fa-utensils"></i></div>
+        <h3>Restaurant Menu Web App</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">Spring Boot</span>
+          <span class="tech-tag">MySQL</span>
+          <a href="https://github.com/Saniyathakur13/restaurant_menu_app" class="github-link" target="_blank"><i class="fab fa-github"></i> View Case Study</a>
+        </div>
+        <p class="case-desc">Full-stack web app with responsive frontend, REST APIs, and dynamic menu management.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-icon"><i class="fas fa-coins"></i></div>
+        <h3>Silver Management System</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Flutter</span>
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">MongoDB</span>
+          <a href="https://github.com/Saniyathakur13/silver_managment_system" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> View Case Study</a>
+        </div>
+        <p class="case-desc">Cross-platform app for silver inventory tracking with real-time sync.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-icon"><i class="fas fa-language"></i></div>
+        <h3>Marathi Localization Website</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express</span>
+          <a href="https://github.com/Saniyathakur13/new" class="github-link" target="_blank"><i class="fab fa-github"></i> View Case Study</a>
+        </div>
+        <p class="case-desc">Corporate site with unique Marathi language toggle feature for local users.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-icon"><i class="fas fa-language"></i></div>
+        <h3>Weather Forecast</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Express</span>
+          <a href="https://github.com/Saniyathakur13/weather_forecast" class="github-link" target="_blank"><i class="fab fa-github"></i> View Case Study</a>
+        </div>
+        <p class="case-desc">Weather forecasting app with real-time data and interactive maps.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Bank Churn Prediction</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <a href="https://github.com/Saniyathakur13/bank-churn-prediction" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> AI Case Study</a>
+        </div>
+        <p class="case-desc">ML-driven analytics dashboard with predictive churn visualizations.</p>
+      </div>
+
+      <div class="case-card">
+       <div class="case-icon"><i class="fas fa-map-marked-alt"></i></div>
+        <h3>Crime Analysis System</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Streamlit</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <a href="https://github.com/Saniyathakur13/crime-analysis-system" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> AI Case Study</a>
+        </div>
+        <p class="case-desc">Analytical dashboard for crime pattern insights with custom UI.</p>
+      </div>
+
+      <div class="case-card">
+      <div class="case-icon"><i class="fas fa-heartbeat"></i></div>
+        <h3>multimodal disease diagnosis</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">PyTorch</span>
+          <a href="https://github.com/Saniyathakur13/multimodal-diagnosis" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> AI Case Study</a>
+        </div>
+        <p class="case-desc">Predictive model for multimodal disease diagnosis with custom UI.</p>
+      </div>
+
+      <div class="case-card">
+      <div class="case-icon"><i class="fas fa-user-md"></i></div>
+        <h3>Medicare website</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">Javascript</span>
+          <a href="https://github.com/Saniyathakur13/medicare" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> AI Case Study</a>
+        </div>
+        <p class="case-desc">Website for medicines with custom UI.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-icon"><i class="fas fa-user-astronaut"></i></div>
+        <h3>AI Recommendation Engine</h3>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">TensorFlow</span>
+          <span class="tech-tag">Scikit-learn</span>
+          <a href="https://github.com/Saniyathakur13/Ai-recommendation-engine" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> AI Case Study</a>
+        </div>
+        <p class="case-desc">Intelligent recommendation system using machine learning algorithms.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Internships -->
+  <div class="internship-section">
+    <h3><i class="fas fa-briefcase"></i> Internships & Certifications</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1rem;">
+      <span class="internship-badge">🔧 Binary Solutions - Web & App Dev (4 months)</span>
+      <span class="internship-badge">📊 Deloitte (Virtual) - Data Analytics</span>
+      <span class="internship-badge">🔒 Tata (Virtual) - Cybersecurity Analyst</span>
+      <span class="internship-badge">✈️ Skyscanner - Front-End Engineering Simulation</span>
+      <span class="internship-badge">🇬🇧 British Airways - Data Science Simulation</span>
+    </div>
+  </div>
+
+  <!-- Skills with Progress Bars -->
+  <div id="skills" class="skills-section">
+    <h3><i class="fas fa-chart-line"></i> Core Proficiency</h3>
+    
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>React.js & TypeScript</span>
+        <span class="skill-percent" id="reactPercent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" data-skill="88" id="reactFill"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Java / Spring Boot</span>
+        <span class="skill-percent" id="javaPercent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" data-skill="85" id="javaFill"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Python & Data Analysis</span>
+        <span class="skill-percent" id="pythonPercent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" data-skill="80" id="pythonFill"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>Node.js / Express</span>
+        <span class="skill-percent" id="nodePercent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" data-skill="82" id="nodeFill"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span>MongoDB / MySQL</span>
+        <span class="skill-percent" id="dbPercent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" data-skill="85" id="dbFill"></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      <span class="tech-tag">Tailwind CSS</span>
+      <span class="tech-tag">RESTful APIs</span>
+      <span class="tech-tag">Git/GitHub</span>
+      <span class="tech-tag">Tableau/Power BI</span>
+      <span class="tech-tag">Flutter</span>
+      <span class="tech-tag">Netlify/Vercel</span>
+    </div>
+  </div>
+
+  <!-- Contact Form - FIXED with correct IDs -->
+  <div id="contact" class="contact-form">
+    <h3><i class="fas fa-envelope"></i> Get in Touch</h3>
+    <p style="margin-bottom: 1rem;">📩 I'll reply within 24 hours</p>
+    
+    <!-- IMPORTANT: The input IDs MUST match what JavaScript is looking for -->
+    <form id="contactForm" onsubmit="return false;">
+      <div class="form-group">
+        <input type="text" id="userName" name="userName" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="userEmail" name="userEmail" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="userMessage" name="userMessage" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" id="submitBtn">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+      <div id="formStatus" style="margin-top: 1rem; font-weight: 500; padding: 10px; border-radius: 10px;"></div>
+    </form>
+  </div>
+
+  <!-- Share Buttons -->
+  <div class="share-section">
+    <h4>📢 Share this Portfolio</h4>
+    <div class="share-buttons">
+      <button class="share-btn" id="shareLinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</button>
+      <button class="share-btn" id="shareTwitter"><i class="fab fa-twitter"></i> Twitter</button>
+      <button class="share-btn" id="shareWhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2025 Saniya Thakur — Full Stack Developer | MCA Student | <i class="fas fa-heart" style="color: #ef4444;"></i> Clean Code & Minimal UI</p>
+    <p style="font-size: 0.8rem; margin-top: 0.5rem;">📍 Chandan nagar, Latur road, Barshi, Solapur - 413401</p>
+    <div class="social-icons">
+      <a href="https://github.com/Saniyathakur13" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/saniyathakur" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:thakursaniya102@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</div>
+
+<button id="backToTop"><i class="fas fa-arrow-up"></i> Top</button>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
