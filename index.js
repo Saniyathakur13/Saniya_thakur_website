@@ -44,7 +44,7 @@ if (downloadBtn) {
     // Create a temporary link element
     const link = document.createElement('a');
     link.href = pdfPath;
-    link.download = 'saniya_resume.pdf';  // What the downloaded file will be named
+    link.download = 'AI_ML.pdf';  // What the downloaded file will be named
     
     // Append to body, click, and remove
     document.body.appendChild(link);
