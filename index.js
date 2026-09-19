@@ -39,7 +39,7 @@ if (downloadBtn) {
     // This downloads the actual PDF file from your project folder
     // Make sure your PDF file is named exactly "saniya_resume.pdf" and is in the same folder as index.html
     
-    const pdfPath = 'saniya_resume.pdf';  // Your PDF filename
+    const pdfPath = 'AI_ML.pdf';  // Your PDF filename
     
     // Create a temporary link element
     const link = document.createElement('a');
