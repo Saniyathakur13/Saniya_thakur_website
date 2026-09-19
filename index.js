@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Typing Animation
   new Typed('#typed-text', {
-    strings: ['Full Stack Developer', 'Java & Spring Boot Expert', 'React Developer', 'Data Analytics Enthusiast'],
+    strings: ['AI/ML Developer', 'Python Developer', 'Data Analytics Enthusiast'],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true,
